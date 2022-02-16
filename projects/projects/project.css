@@ -1,0 +1,164 @@
+#projectCardDiv{
+    display: flex;
+    padding:5vw;
+    width: 70vw;
+    background-color: black;
+    border-radius: 0.4vw;
+    border-radius:1vw;
+    justify-content: space-between;
+}
+.projectCard{
+   height:30vw;
+   padding:1vw;
+   box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+   background-color: rgb(51, 50, 50);
+   color:whitesmoke;
+   text-align: center;
+   border-radius: 0.4vw;
+   border:1px solid green;
+   border:1px solid whitesmoke;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: 1px;
+   overflow-y: hidden;
+}
+.projectCard p{
+    width:30vw;
+}
+.iframe{
+    height:14vw;
+}
+.projectButtonDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.projectButtonDiv Button{
+    width:8vw;
+}
+#demoDiv{
+        min-width:44vw;
+        max-width: 47vw;
+        height:auto;
+        padding:1vw;
+        box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+        background-color: rgb(51, 50, 50);
+        color:whitesmoke;
+        overflow-y: hidden;
+        text-align: center;
+        border-radius: 0.4vw;
+        border:1px solid green;
+        border:1px solid whitesmoke;
+        margin: auto;
+}
+#demoDiv video{
+    height:20vw;
+    padding:2vw;
+    padding-bottom: 3vw;
+}
+.aboutProject{
+    font-size:1vw;
+    margin-top:1vw;
+}
+
+.crossSymbol{
+    background:transparent; 
+    margin-left:39vw;
+}
+.projectCard a{
+    text-decoration: none;
+    color:white;
+}
+.techStack{
+    display: flex;
+    justify-content:space-evenly;
+}
+.techStackImg{
+    height:2vw;
+    padding:0.3vw;
+}
+
+@media screen and (max-width: 600px) {
+    #projectCardDiv{
+        display: flex;
+        flex-direction: column;
+        padding:5vw;
+        width: 70vw;
+        background-color: black;
+        border-radius: 0.4vw;
+        border-radius:1vw;
+        justify-content: space-between;
+    }
+    
+    .projectCard{
+        height:70vw;
+        padding:1vw;
+        box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+        background-color: rgb(51, 50, 50);
+        color:whitesmoke;
+        text-align: center;
+        border-radius: 0.4vw;
+        border:1px solid green;
+        border:1px solid whitesmoke;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        overflow-y: hidden;
+        margin-top:10vw;
+     }
+     .projectCard p{
+         width:80vw;
+     }
+     .projectCard a{
+       font-size:2.5vw;
+    }
+
+     .projectButtonDiv{
+        display: flex;
+        justify-content: space-between;
+    }
+    .projectButtonDiv Button{
+        width:18vw;
+    }
+    #demoDiv{
+            min-width:70vw;
+            max-width: 70vw;
+            height:auto;
+            padding:1vw;
+            box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+            background-color: rgb(51, 50, 50);
+            color:whitesmoke;
+            overflow-y: hidden;
+            text-align: center;
+            border-radius: 0.4vw;
+            border:1px solid green;
+            border:1px solid whitesmoke;
+            margin: auto;
+    }
+    #demoDiv video{
+        height:30vw;
+        padding:2vw;
+        padding-bottom: 3vw;
+    }
+    .aboutProject{
+        font-size:2.5vw;
+        margin-top:1vw;
+        margin-left: 3vw;
+    }
+    .projectCard p{
+        width:60vw;
+    }
+    .iframe{
+        height:30vw;
+    }
+
+    .techStack{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .techStackImg{
+        height:5vw;
+        padding:0.3vw;
+    }
+    .crossSymbol{
+        background:transparent; 
+        margin-left:59vw;
+    }
+}
