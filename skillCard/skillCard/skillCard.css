@@ -1,0 +1,67 @@
+#skillCardDiv{
+    display: grid;
+    padding:5vw;
+    width: 70vw;
+    grid-gap:3vw;
+    background-color: black;
+    border-radius: 0.4vw;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius:1vw;
+}
+.skillCard{
+   height:7.5vw;
+   width:7.5vw;
+   padding:1vw;
+   box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+   background-color: rgb(51, 50, 50);
+   color:whitesmoke;
+   overflow-y: hidden;
+   text-align: center;
+   border-radius: 0.4vw;
+   border: 1px solid whitesmoke;
+}
+.skillCard img{
+    height: 6vw;
+    width:6vw;
+}
+.skillCard h3{
+    margin-top:0.5vw;
+    font-size: 1vw;
+}
+
+
+
+@media screen and (max-width: 600px) {
+#skillCardDiv{
+    display: grid;
+    padding:5vw;
+    width: 70vw;
+    grid-gap:3vw;
+    background-color: black;
+    border-radius: 0.4vw;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius:1vw;
+    margin-top:-0vw;
+}
+.skillCard{
+   height:17vw;
+   width:17vw;
+   padding:2vw;
+   box-shadow: rgb(39, 33, 66) 0px 20px 30px -10px;
+   background-color: rgb(51, 50, 50);
+   color:whitesmoke;
+   overflow-y: hidden;
+   text-align: center;
+   border-radius: 0.4vw;
+   border: 1px solid whitesmoke;
+   margin-top: 2vw;
+}
+.skillCard img{
+    height: 14vw;
+    width:14vw;
+}
+.skillCard h3{
+    margin-top:1.5vw;
+    font-size: 3vw;
+}
+}
