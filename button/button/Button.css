@@ -1,0 +1,87 @@
+
+
+.custom-btn {
+    width: 11vw;
+    height: 3vw;
+    color: #fff;
+    border-radius: 0.4vw;
+    padding: 0.6vw 2vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    margin-top:0.5vw;
+  }
+  .btn-customize {
+    background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+    line-height: 3vw;
+    padding: 0;
+    border: none;
+  }
+  .btn-customize span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-customize:before,
+  .btn-customize:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+  }
+  .btn-customize:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-customize:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-customize:hover:before {
+    height: 100%;
+  }
+  .btn-customize:hover:after {
+    width: 100%;
+  }
+  .btn-customize:hover{
+    background: transparent;
+  }
+  .btn-customize span:hover{
+    color: #c797eb;
+  }
+  .btn-customize span:before,
+  .btn-customize span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    transition: all 0.3s ease;
+  }
+  .btn-customize span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-customize span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-customize span:hover:before {
+    height: 100%;
+  }
+  .btn-customize span:hover:after {
+    width: 100%;
+  }
